@@ -2,7 +2,7 @@ from chatterbot import ChatBot
 from chatterbot.trainers import ListTrainer
 import os
 
-bot = ChatBot("lol")
+bot = ChatBot('hy master')
 bot.set_trainer(ListTrainer)
 
 for files in os.listdir('english'):
@@ -14,8 +14,8 @@ while True:
     message = input('you :')
     if message.strip() != 'bye':
         reply = bot.get_response(message)
-        print('BotJohnny :' + str(reply))
+        print('master :' + str(reply))
 
     if message.strip() == 'bye':
-        print("Botjohnny : bye")
+        print("master : bye")
         break
