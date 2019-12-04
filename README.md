@@ -1,2 +1,2 @@
 # Chat-Bot
-trying to provide good trained chat bot for the users
+created basic chatbot,I will post it soon
